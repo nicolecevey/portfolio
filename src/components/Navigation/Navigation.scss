@@ -1,0 +1,13 @@
+.nav {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #434BE7;
+
+    &__text {
+
+        color: white;
+        margin-right: 3rem;
+    }
+}

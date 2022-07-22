@@ -4,25 +4,31 @@
     align-items: center;
     margin: 10rem 0;
 
-    &__description {
-        width: 20rem;
-    }
-
     &__title {
         margin-bottom: 2rem;
         border-bottom: 1px solid #434BE7;
-        width: 50rem;
+        width: 60rem;
         display: flex;
         justify-content: center;
         padding-bottom: 1rem;
     }
+}
 
-    &__project-card {
+.carousel {
+    display: flex;
+    background-color: #1d6ef020;
+    border-radius: 4px;
+
+    &__track {
         display: flex;
-        background-color: #1d6ef020;
-        padding: 3rem 0 3rem 2rem;
+        padding: 4rem 0;
         border-radius: 4px;
         max-width: 45rem;
+        list-style: none;
+    }
+
+    &__slide {
+        display: flex;
     }
 
     &__project-title {
@@ -52,9 +58,10 @@
         margin-right: 1rem;
     }
 
-    &__next-button {
+    &__next-icon {
         height: 6rem;
         align-self: center;
         font-weight: 100;
+        
     }
 }

@@ -1,0 +1,10 @@
+[
+    {
+        "id": "1",
+        "name": "DocTurn",
+        "description": "A document management application that makes keeping track of documents easy. Intended for lawyers and other business professionals who turn many documents on a regular basis",
+        "stack": ["JavaScript", "Sass", "React", "Firebase"],
+        "github": "https://github.com/nicolecevey/docturn",
+        "link": "https://docturn.vercel.app/"
+    }
+]

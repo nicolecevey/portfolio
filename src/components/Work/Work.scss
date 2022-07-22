@@ -1,0 +1,60 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0;
+
+    &__description {
+        width: 20rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #434BE7;
+        width: 50rem;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    &__project-card {
+        display: flex;
+        background-color: #1d6ef020;
+        padding: 3rem 0 3rem 2rem;
+        border-radius: 4px;
+        max-width: 45rem;
+    }
+
+    &__project-title {
+        margin-bottom: 1rem;
+    }
+
+    &__project-text {
+        margin-bottom: .5rem;
+    }
+
+    &__image {
+        height: 20rem;
+        border-radius: 4px;
+        margin-right: 2rem;
+    }
+
+    &__tech-list {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+        color: #434BE7;
+    }
+
+    &__link-icon {
+        height: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__next-button {
+        height: 6rem;
+        align-self: center;
+        font-weight: 100;
+    }
+}

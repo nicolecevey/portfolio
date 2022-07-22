@@ -24,7 +24,7 @@
         white-space: nowrap;
         overflow: hidden;  
         border-right: solid 3px white;
-        animation: animated-text 2.5s steps(14,end) 1s 1 normal both,
+        animation: animated-text 2s steps(14,end) 1s 1 normal both,
         animated-cursor 600ms steps(14,end);
 
         @keyframes animated-text{

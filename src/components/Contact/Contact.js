@@ -9,18 +9,39 @@ export function Contact() {
             <h1 className="contact__title">Get In Touch</h1>
             <ul className="contact__list">
                 <li className="contact__list-item">
-                    <a href="https://github.com/nicolecevey" target="_blank">
-                        <img src={githubIcon} className="contact__icons"></img>
+                    <a 
+                        href="https://github.com/nicolecevey" target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img 
+                            src={githubIcon} 
+                            className="contact__icons"
+                            alt="GitHub Icon"
+                        ></img>
                     </a>
                 </li>
                 <li className="contact__list-item">
-                    <a href="https://www.linkedin.com/in/nicole-cevey/" target="_blank">
-                        <img src={linkedinIcon} className="contact__icons"></img>
+                    <a 
+                        href="https://www.linkedin.com/in/nicole-cevey/" target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img 
+                            src={linkedinIcon} 
+                            className="contact__icons"
+                            alt="LinkedIn icon"
+                        ></img>
                     </a>
                 </li>
                 <li className="contact__list-item">
-                    <a href="mailto:nicole.cevey@gmail.com" target="_blank">
-                        <img src={emailIcon} className="contact__icons"></img>
+                    <a 
+                        href="mailto:nicole.cevey@gmail.com" target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img 
+                            src={emailIcon} 
+                            className="contact__icons"
+                            alt="Email icon"
+                        ></img>
                     </a>
                 </li>
             </ul>

@@ -6,8 +6,11 @@
     background-color: #434BE7;
 
     &__text {
-
         color: white;
         margin-right: 3rem;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.663);
+        }
     }
 }

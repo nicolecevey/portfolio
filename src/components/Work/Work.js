@@ -31,7 +31,7 @@ export default function Work() {
     }
     
   return (
-    <section className="work">
+    <section className="work" id="work">
       <h1 className="work__title">Projects I've Built</h1>
       <article className="carousel">
         <div className="carousel__container">

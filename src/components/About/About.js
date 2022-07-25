@@ -3,7 +3,7 @@ import "./About.scss";
 
 export function About() {
  return (
-    <article className="about">
+    <article className="about" id="about">
         <img 
             src={headshot} 
             className="about__headshot" 

@@ -5,7 +5,7 @@ import emailIcon from "../../assets/icons/email-icon.png";
 
 export function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <h1 className="contact__title">Get In Touch</h1>
             <ul className="contact__list">
                 <li className="contact__list-item">

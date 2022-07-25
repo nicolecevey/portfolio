@@ -8,9 +8,9 @@
         "link": "https://docturn.vercel.app/"
     },
     {
-        "id": "1",
+        "id": "2",
         "name": "BrainFlix",
-        "description": "A video streaming platform.",
+        "description": "A video streaming platform created for a BrainStation project.",
         "stack": ["JavaScript", "Sass", "React", "Node.js", "Express"],
         "github": "https://github.com/nicolecevey/nicole-cevey-brainflix-api",
         "link": ""

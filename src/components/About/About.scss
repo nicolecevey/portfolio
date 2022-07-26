@@ -1,11 +1,27 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
 .about {
     margin: 0 5rem 5rem 5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 10rem;
+    align-items: center;
+    gap: 4rem;
+
+    @include tablet {
+        flex-direction: row;
+        gap: 10rem;
+    }
 
     &__headshot {
-        height: 20rem;
+        height: 17rem;
+        width: 17rem;
+
+        @include tablet {
+            height: 20rem;
+            width: 20rem;
+        }
     }
 
     &__description {

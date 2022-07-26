@@ -16,9 +16,8 @@ export function About() {
         <h1 className="about__title">About Me</h1>
         <div className="about__text">
           <p>
-            I'm a former licensed paralegal who worked as a legal assistant at
-            one of Canada's largest corporate law firms before making the
-            transition to web development.
+            I'm a former legal assistant who worked at one of Canada's largest
+            corporate law firms before making the transition to web development.
           </p>
         </div>
         <section className="technologies">

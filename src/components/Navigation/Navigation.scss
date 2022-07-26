@@ -1,16 +1,86 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
 .nav {
     height: 5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: #434BE7;
+    overflow: hidden;
+
+    &__list {
+        display: none;
+        list-style: none;
+
+        @include tablet {
+            display: flex;
+        }
+    }
 
     &__text {
-        color: white;
         margin-right: 3rem;
 
         &:hover {
             color: rgba(255, 255, 255, 0.663);
         }
     }
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28px;
+    cursor: pointer;
+    margin-right: 2rem;
+    z-index: 998;
+
+    @include tablet {
+        display: none;
+    }
+
+    span {
+        height: 3px;
+        background-color: white;
+        transform-origin: left;
+        transition: all 1s ease;
+
+        &:first-child {
+            width: 33.5px;
+            margin-left: .25rem;
+        }
+        &:nth-child(2) {
+            width: 42px;
+            margin-right: 1rem;
+        }
+        &:last-child {
+            width: 33.5px;
+            margin-left: .25rem;
+        }
+
+    }
+}
+
+.active {
+    color: white;
+
+    .hamburger {
+
+        span {
+            &:first-child {
+                background-color: white;
+                transform: rotate(45deg)
+            }
+            &:nth-child(2) {
+                transform: translateX(50px);
+                opacity: 0;
+            }
+            &:last-child {
+                background-color: white;
+                transform: rotate(-47.5deg)
+            }
+        }
+    }
+    
 }

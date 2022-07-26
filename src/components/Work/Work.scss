@@ -51,18 +51,6 @@
         transition: opacity ease-in-out 0.4s;
     }
 
-    // &__prev {
-    //     top: 50%;
-    //     left: 20px;
-    //     transform: translateY(-60%);
-    // }
-
-    // &__next {
-    //     top: 50%;
-    //     right: 20px;
-    //     transform: translateY(-60%);
-    // }
-
     &__project-title {
         margin-bottom: 1rem;
     }
@@ -93,12 +81,22 @@
     &__link-icon {
         height: 2rem;
         margin-right: 1rem;
+        transition: all .1s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2.5px);
+        }
     }
 
     &__next-icon {
         height: 6rem;
         align-self: center;
         font-weight: 100;
+        transition: all .1s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2.5px);
+        }
     }
 
     &__indicators {
@@ -106,6 +104,7 @@
         justify-content: center;
         gap: 1rem;
         margin-bottom: 2rem;
+        cursor: pointer;
     }
 
     &__indicator {

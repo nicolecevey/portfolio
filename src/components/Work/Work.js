@@ -12,7 +12,7 @@ export default function Work() {
   const [slideIndex, setSlideIndex] = useState(1);
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 600 });
   }, []);
 
   const nextSlide = () => {

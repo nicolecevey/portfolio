@@ -8,12 +8,16 @@ import { useEffect } from "react";
 
 export function Contact() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 600 });
   }, []);
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact" id="contact" data-aos="fade-up">
       <h1 className="contact__title">Get In Touch</h1>
+      <p className="contact__text">
+        If you would like to get in touch with me, you can reach me at any of
+        the below:
+      </p>
       <ul className="contact__list">
         <li className="contact__list-item">
           <a
@@ -55,6 +59,7 @@ export function Contact() {
           </a>
         </li>
       </ul>
+      <p className="contact__footer-text">Designed and built by Nicole Cevey</p>
     </section>
   );
 }

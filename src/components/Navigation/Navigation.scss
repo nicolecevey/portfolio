@@ -19,11 +19,28 @@
     }
 
     &__text {
+        display: flex;
+        gap: 1rem;
         margin-right: 3rem;
+        color: white;
+        text-decoration: none;
+    }
 
-        &:hover {
-            color: rgba(255, 255, 255, 0.663);
+    &__list-item {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 0;
+            background-color: white;
+            transition: all 0.2s; 
         }
+    }
+
+    li:hover::after, li:hover a::before {
+        width: 65%;
     }
 }
 

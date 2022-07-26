@@ -5,22 +5,22 @@ export function Navigation({ menuOpen, setMenuOpen }) {
   return (
     <nav className={"nav " + (menuOpen && "active")}>
       <ul className="nav__list">
-        <li>
+        <li className="nav__list-item">
           <a href="#about" className="nav__text">
             About
           </a>
         </li>
-        <li>
+        <li className="nav__list-item">
           <a href="#work" className="nav__text">
             Work
           </a>
         </li>
-        <li>
+        <li className="nav__list-item">
           <a href="#contact" className="nav__text">
             Contact
           </a>
         </li>
-        <li>
+        <li className="nav__list-item">
           <a href={resume} className="nav__text" target="blank">
             Resume
           </a>

@@ -45,3 +45,10 @@ li {
   font-weight: 100;
   line-height: 1.75rem;;
 }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}

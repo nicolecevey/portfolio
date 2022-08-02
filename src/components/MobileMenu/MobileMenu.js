@@ -10,7 +10,7 @@ export default function MobileMenu({ menuOpen, setMenuOpen }) {
   };
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 600 });
   }, []);
 
   return (

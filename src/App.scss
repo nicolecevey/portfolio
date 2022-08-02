@@ -8,32 +8,32 @@
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 100;
 
   @include tablet {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
 
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 100;
   line-height: 2rem;
 
   @include tablet {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
 a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 100;
   line-height: 2rem;
   text-decoration: none;
@@ -41,14 +41,14 @@ a {
 }
 
 li {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 100;
   line-height: 1.75rem;;
 }
 
-a.anchor {
-  display: block;
-  position: relative;
-  top: -100px;
-  visibility: hidden;
-}
+// a.anchor {
+//   display: block;
+//   position: relative;
+//   top: -100px;
+//   visibility: hidden;
+// }

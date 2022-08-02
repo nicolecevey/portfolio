@@ -1,3 +1,6 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -23,8 +26,12 @@
 
     &__text {
         margin: 2rem 0 1rem 0;
-        width: 35rem;
+        width: 28rem;
         text-align: center;
+
+        @include tablet {
+            width: 35rem;
+        }
     }
 
     &__footer-text {

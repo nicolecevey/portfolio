@@ -37,7 +37,7 @@ export default function Work() {
 
   return (
     <>
-      <a id="work" className="anchor"></a>
+      <a id="work"></a>
       <section className="work" id="work" data-aos="fade-up">
         <h1 className="work__title">Projects I've Built</h1>
         <article className="carousel">

@@ -5,12 +5,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10rem 0;
+    margin: 7rem 0;
 
     &__title {
         margin-bottom: 2rem;
         border-bottom: 1px solid #434BE7;
-        width: 37rem;
+        width: 32rem;
         display: flex;
         justify-content: center;
         padding-bottom: 1rem;
@@ -23,7 +23,7 @@
 
 .carousel {
     display: flex;
-    width: 35rem;
+    width: 32rem;
     height: 40rem;
     flex-direction: column;
     background-color: #1d6ef020;
@@ -32,7 +32,7 @@
     overflow: hidden;
 
     @include tablet {
-        width: 56rem;
+        width: 55rem;
         height: 28rem;
     }
 
@@ -71,7 +71,7 @@
         @include tablet {
             flex-direction: row;
             align-items: flex-start;
-            width: 45rem;
+            width: 42rem;
         }
     }
 

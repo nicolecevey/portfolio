@@ -7,6 +7,8 @@
   font-family: $font-stack;
 }
 
+html{scroll-behavior:smooth}
+
 h1 {
   font-size: 2rem;
   font-weight: 100;
@@ -39,6 +41,13 @@ a {
   line-height: 2rem;
   text-decoration: none;
   color: white;
+
+  &.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+  }
 }
 
 li {
@@ -46,10 +55,3 @@ li {
   font-weight: 100;
   line-height: 1.75rem;;
 }
-
-// a.anchor {
-//   display: block;
-//   position: relative;
-//   top: -100px;
-//   visibility: hidden;
-// }

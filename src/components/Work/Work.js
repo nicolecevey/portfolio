@@ -64,7 +64,7 @@ export default function Work() {
                         key={project.id}
                       >
                         <img
-                          src={`http://localhost:3000/Images/project-image${
+                          src={`https://nicole-cevey-portfolio.herokuapp.com/Images/project-image${
                             index + 1
                           }.png`}
                           className="carousel__image"

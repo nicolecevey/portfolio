@@ -10,7 +10,7 @@
     &__title {
         margin-bottom: 2rem;
         border-bottom: 1px solid #434BE7;
-        width: 32rem;
+        width: 23rem;
         display: flex;
         justify-content: center;
         padding-bottom: 1rem;
@@ -23,8 +23,8 @@
 
 .carousel {
     display: flex;
-    width: 32rem;
-    height: 40rem;
+    width: 23rem;
+    height: 34rem;
     flex-direction: column;
     background-color: #1d6ef020;
     border-radius: 4px;
@@ -42,9 +42,17 @@
         width: 100%;
     }
 
+    &__description {
+        width: 15rem;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
     &__track {
         display: flex;
-        padding: 3rem 0;
+        padding: 2rem 0;
         border-radius: 4px;
         max-width: 45rem;
         list-style: none;
@@ -64,7 +72,7 @@
         flex-direction: column;
         align-items: center;
         position: absolute;
-        width: 24rem;
+        width: 15rem;
         opacity: 0;
         transition: opacity ease-in-out 0.4s;
 
@@ -76,26 +84,31 @@
     }
 
     &__project-title {
-        margin: 1.5rem 0;
+        margin: .75rem 0 .5rem 0;
+        text-align: center;
 
         @include tablet {
             margin: 0 0 1rem 0;
+            text-align: left;
         }
     }
 
     &__project-text {
-        margin-bottom: .5rem;
+
+        @include tablet {
+            margin-bottom: .5rem;
+        }
     }
 
     &__image {
         height: 13rem;
         width: 10rem;
         border-radius: 4px;
-        margin-right: 2rem;
 
         @include tablet {
             height: 20rem;
             width: 15rem;
+            margin-right: 2rem;
         }
     }
 
@@ -103,8 +116,14 @@
         list-style: none;
         display: flex;
         gap: 1rem;
+        row-gap: 0;
         margin: 1rem 0;
         color: #434BE7;
+        flex-wrap: wrap;
+    }
+
+    &__tech {
+        font-size: 1rem;
     }
 
     &__link {
@@ -113,17 +132,21 @@
     }
 
     &__link-icon {
-        height: 2rem;
+        height: 1.75rem;
         margin-right: 1rem;
         transition: all .1s ease-in-out;
 
         &:hover {
             transform: translateY(-2.5px);
         }
+
+        @include tablet {
+            height: 2rem;
+        }
     }
 
     &__next-icon {
-        height: 6rem;
+        height: 4rem;
         align-self: center;
         font-weight: 100;
         transition: all .1s ease-in-out;

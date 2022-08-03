@@ -16,7 +16,7 @@
 
     &__text {
         margin-top: -15rem;
-        padding: 6rem 2rem;
+        padding: 6rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -31,7 +31,7 @@
 
     &__name {
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 3.25rem;
         color: white;
         white-space: nowrap;
         overflow: hidden;  
@@ -41,7 +41,7 @@
 
         @keyframes animated-text{
             from{width: 0rem;}
-            to{width: 26rem;}
+            to{width: 22rem;}
         }
 
         @keyframes animated-cursor{
@@ -57,5 +57,9 @@
                 to{width: 33rem;}
             }
         }
+    }
+
+    &__description {
+        width: 23rem;
     }
 }

@@ -79,7 +79,7 @@ export default function Work() {
                           </p>
                           <ul className="carousel__tech-list">
                             {project.stack.map((tech) => {
-                              return <li>{tech}</li>;
+                              return <li className="carousel__tech">{tech}</li>;
                             })}
                           </ul>
                           <a

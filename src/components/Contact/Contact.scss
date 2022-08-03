@@ -26,15 +26,11 @@
 
     &__text {
         margin: 2rem 0 1rem 0;
-        width: 28rem;
+        width: 24rem;
         text-align: center;
 
         @include tablet {
             width: 35rem;
         }
-    }
-
-    &__footer-text {
-        font-size: 1.125rem;
     }
 }

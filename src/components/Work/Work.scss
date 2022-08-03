@@ -16,7 +16,11 @@
         padding-bottom: 1rem;
 
         @include tablet {
-            width: 60rem;
+            width: 44rem;
+        }
+
+        @include desktop {
+            width: 50rem;
         }
     }
 }
@@ -32,8 +36,12 @@
     overflow: hidden;
 
     @include tablet {
-        width: 55rem;
+        width: 44rem;
         height: 28rem;
+    }
+    
+    @include desktop {
+        width: 50rem;
     }
 
     &__container {
@@ -46,7 +54,7 @@
         width: 15rem;
 
         @include tablet {
-            width: 100%;
+            width: 18rem;
         }
     }
 
@@ -79,7 +87,7 @@
         @include tablet {
             flex-direction: row;
             align-items: flex-start;
-            width: 42rem;
+            width: 35rem;
         }
     }
 
@@ -98,6 +106,10 @@
         @include tablet {
             margin-bottom: .5rem;
         }
+
+        @include desktop {
+            width: 22rem;
+        }
     }
 
     &__image {
@@ -110,6 +122,10 @@
             width: 15rem;
             margin-right: 2rem;
         }
+
+        @include desktop {
+            margin-left: 2rem;
+        }
     }
 
     &__tech-list {
@@ -120,10 +136,18 @@
         margin: 1rem 0;
         color: #434BE7;
         flex-wrap: wrap;
+
+        @include desktop {
+            width: 19rem;
+        }
     }
 
     &__tech {
         font-size: 1rem;
+
+        @include tablet {
+            font-size: 1.125rem; 
+        }
     }
 
     &__link {

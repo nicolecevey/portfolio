@@ -63,13 +63,15 @@ export default function Work() {
                         }
                         key={project.id}
                       >
-                        <img
-                          src={`https://nicole-cevey-portfolio.herokuapp.com/Images/project-image${
-                            index + 1
-                          }.png`}
-                          className="carousel__image"
-                          alt="Project screenshot"
-                        ></img>
+                        <a href={project.link} target="_blank" rel="noreferrer">
+                          <img
+                            src={`https://nicole-cevey-portfolio.herokuapp.com/Images/project-image${
+                              index + 1
+                            }.png`}
+                            className="carousel__image"
+                            alt="Project screenshot"
+                          ></img>
+                        </a>
                         <div className="carousel__description">
                           <h2 className="carousel__project-title">
                             {project.name}

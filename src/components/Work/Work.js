@@ -65,7 +65,7 @@ export default function Work() {
                       >
                         <a href={project.link} target="_blank" rel="noreferrer">
                           <img
-                            src={`https://nicole-cevey-portfolio.herokuapp.com/Images/project-image${
+                            src={`https://nicolecevey.com/Images/project-image${
                               index + 1
                             }.png`}
                             className="carousel__image"

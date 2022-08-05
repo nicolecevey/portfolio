@@ -80,3 +80,14 @@
         gap: 5rem;
     }
 }
+
+.arrow-down {
+    position: absolute;
+    right: 47%;
+    top: 37rem;
+    @include chevron;
+
+    @include tablet {
+        top: 40rem; 
+    }
+}

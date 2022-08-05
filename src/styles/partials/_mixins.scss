@@ -12,3 +12,13 @@
         @content;
     }
 }
+
+@mixin chevron {
+    height: 2.5rem;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-2.5px);
+        cursor: pointer;
+    }
+}

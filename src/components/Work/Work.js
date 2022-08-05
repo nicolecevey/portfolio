@@ -1,8 +1,8 @@
 import "../Work/Work.scss";
 import githubIcon from "../../assets/icons/GitHub-Mark.png";
 import launchIcon from "../../assets/icons/launch_black_24dp.svg";
-import rightChevron from "../../assets/icons/chevron-right.svg";
-import leftChevron from "../../assets/icons/chevron-left.svg";
+import rightChevron from "../../assets/icons/right-chevron.png";
+import leftChevron from "../../assets/icons/left-chevron.png";
 import workData from "../../data/workData.json";
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";

@@ -1,4 +1,5 @@
 import headshot from "../../assets/headshot.png";
+import downChevron from "../../assets/icons/down-chevron.png";
 import "./About.scss";
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -9,9 +10,18 @@ export function About() {
     Aos.init({ duration: 600 });
   }, []);
 
+  const handleClick = () => {
+    window.scroll(0, 700);
+  };
+
   return (
     <>
       <a id="about" className="anchor"></a>
+      <img
+        src={downChevron}
+        className="arrow-down"
+        onClick={() => handleClick()}
+      ></img>
       <article className="about" data-aos="fade-up">
         <img src={headshot} className="about__headshot" alt="Headshot"></img>
         <div className="about__description">

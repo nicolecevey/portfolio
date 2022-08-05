@@ -36,27 +36,9 @@
         color: white;
         white-space: nowrap;
         overflow: hidden;  
-        border-right: solid 3px white;
-        animation: animated-text 2s steps(14,end) 1s 1 normal both,
-        animated-cursor 600ms steps(14,end);
-
-        @keyframes animated-text{
-            from{width: 0rem;}
-            to{width: 22rem;}
-        }
-
-        @keyframes animated-cursor{
-            from{border-right-color: white;}
-            to{border-right-color: transparent;}
-        }
 
         @include tablet {
             font-size: 5rem;
-
-            @keyframes animated-text{
-                from{width: 0rem;}
-                to{width: 33rem;}
-            }
         }
     }
 

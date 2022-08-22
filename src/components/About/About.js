@@ -34,21 +34,30 @@ export function About() {
               developing beautiful apps.
             </p>
           </div>
-          <section className="technologies">
-            <h2 className="technologies__title">Some Technologies I use</h2>
-            <ul className="technologies__list">
-              <div>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Sass</li>
-                <li>Node.js</li>
-              </div>
-              <div>
-                <li>Express</li>
-                <li>Firebase</li>
-                <li>MongoDB</li>
-              </div>
-            </ul>
+          <section className="about__knowledge">
+            <div className="technologies">
+              <h2 className="technologies__title">Some Technologies I use</h2>
+              <ul className="technologies__list">
+                <div>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Sass</li>
+                  <li>Node.js</li>
+                </div>
+                <div>
+                  <li>Express</li>
+                  <li>Firebase</li>
+                  <li>MongoDB</li>
+                </div>
+              </ul>
+            </div>
+            <div className="learning">
+              <h2 className="learning__title">What I'm learning</h2>
+              <ul className="learning__list">
+                <li>Web3.js</li>
+                <li>Solidity</li>
+              </ul>
+            </div>
           </section>
         </div>
       </article>

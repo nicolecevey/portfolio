@@ -14,5 +14,41 @@
     "stack": ["JavaScript", "Sass", "React", "Node.js", "Express"],
     "github": "https://github.com/nicolecevey/nicole-cevey-brainflix",
     "link": "https://ncevey-brainflix.herokuapp.com/"
+  },
+  {
+    "id": "3",
+    "name": "Dapp Yield Farm",
+    "description": "A decentralized yield staking application.",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Web3.js",
+      "Solidity",
+      "Truffle",
+      "Chai",
+      "Ganache",
+      "MetaMask"
+    ],
+    "github": "https://github.com/nicolecevey/defi-staking-app",
+    "link": ""
+  },
+  {
+    "id": "4",
+    "name": "Wealthsimple for All (Links to come)",
+    "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Node.js",
+      "Express",
+      "SQL",
+      "mySQL",
+      "Knex"
+    ],
+    "github": "https://github.com/LamiSaadat/hackthe6ix-hackathon",
+    "link": "",
+    "devpost": "https://devpost.com/software/wealthsimple-for-all"
   }
 ]

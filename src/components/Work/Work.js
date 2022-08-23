@@ -65,9 +65,9 @@ export default function Work() {
                       >
                         <a href={project.link} target="_blank" rel="noreferrer">
                           <img
-                            src={`https://nicolecevey.com/Images/project-image${
-                              index + 1
-                            }.png`}
+                            src={`${
+                              process.env.PUBLIC_URL
+                            }/Images/project-image${index + 1}.png`}
                             className="carousel__image"
                             alt="Project screenshot"
                           ></img>
@@ -123,7 +123,7 @@ export default function Work() {
             ></img>
           </div>
           <div className="carousel__indicators">
-            {Array.from({ length: 2 }).map((item, index) => (
+            {Array.from({ length: 4 }).map((item, index) => (
               <div
                 onClick={() => moveDot(index + 1)}
                 className={

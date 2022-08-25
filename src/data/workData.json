@@ -5,7 +5,8 @@
     "description": "A document management app that makes keeping track of documents easy.",
     "stack": ["JavaScript", "Sass", "React", "Firebase"],
     "github": "https://github.com/nicolecevey/docturn",
-    "link": "https://docturn.vercel.app/"
+    "link": "https://docturn.vercel.app/",
+    "devpost": ""
   },
   {
     "id": "2",
@@ -13,7 +14,8 @@
     "description": "A video streaming platform.",
     "stack": ["JavaScript", "Sass", "React", "Node.js", "Express"],
     "github": "https://github.com/nicolecevey/nicole-cevey-brainflix",
-    "link": "https://ncevey-brainflix.herokuapp.com/"
+    "link": "https://ncevey-brainflix.herokuapp.com/",
+    "devpost": ""
   },
   {
     "id": "3",
@@ -31,11 +33,12 @@
       "MetaMask"
     ],
     "github": "https://github.com/nicolecevey/defi-staking-app",
-    "link": "https://defi-staking-app-orpin.vercel.app/"
+    "link": "https://defi-staking-app-orpin.vercel.app/",
+    "devpost": ""
   },
   {
     "id": "4",
-    "name": "Wealthsimple for All (Links to come)",
+    "name": "Wealthsimple for All",
     "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
     "stack": [
       "JavaScript",
@@ -48,7 +51,25 @@
       "Knex"
     ],
     "github": "https://github.com/LamiSaadat/hackthe6ix-hackathon",
-    "link": "",
+    "link": "https://ws-for-all.herokuapp.com/",
     "devpost": "https://devpost.com/software/wealthsimple-for-all"
+  },
+  {
+    "id": "5",
+    "name": "Pet Social",
+    "description": "Coming Soon",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Node.js",
+      "Express",
+      "Next.js",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "github": "",
+    "link": "",
+    "devpost": ""
   }
 ]

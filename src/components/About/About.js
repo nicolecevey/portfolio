@@ -48,6 +48,7 @@ export function About() {
                   <li>Express</li>
                   <li>Firebase</li>
                   <li>MongoDB</li>
+                  <li>Figma</li>
                 </div>
               </ul>
             </div>

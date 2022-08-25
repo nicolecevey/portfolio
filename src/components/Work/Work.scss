@@ -113,13 +113,11 @@
     }
 
     &__image {
-        height: 13rem;
-        width: 10rem;
+        width: 6.5rem;
         border-radius: 4px;
 
         @include tablet {
-            height: 20rem;
-            width: 15rem;
+            width: 10rem;
             margin-right: 2rem;
         }
 
@@ -154,13 +152,18 @@
         }
     }
 
+    &__links {
+        display: flex;
+        align-items: center;
+    }
+
     &__link {
         height: 100%;
-        width: 100%;
+        // width: 100%;
     }
 
     &__link-icon {
-        height: 1.75rem;
+        width: 1.75rem;
         margin-right: 1rem;
         transition: all .1s ease-in-out;
 
@@ -170,6 +173,10 @@
 
         @include tablet {
             height: 2rem;
+        }
+
+        &--github {
+            height: 1.7rem;
         }
     }
 

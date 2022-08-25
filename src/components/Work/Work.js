@@ -1,6 +1,7 @@
 import "../Work/Work.scss";
 import githubIcon from "../../assets/icons/GitHub-Mark.png";
 import launchIcon from "../../assets/icons/launch_black_24dp.svg";
+import devpostIcon from "../../assets/icons/devpost-icon.webp";
 import rightChevron from "../../assets/icons/right-chevron.png";
 import leftChevron from "../../assets/icons/left-chevron.png";
 import workData from "../../data/workData.json";
@@ -84,30 +85,46 @@ export default function Work() {
                               return <li className="carousel__tech">{tech}</li>;
                             })}
                           </ul>
-                          <a
-                            href={project.github}
-                            target="_blank"
-                            rel="noreferrer"
-                            alt="Demo of DocTurn App"
-                          >
-                            <img
-                              src={githubIcon}
-                              className="carousel__link-icon"
-                              alt="GitHub icon link"
-                            ></img>
-                          </a>
-                          <a
-                            href={project.link}
-                            target="_blank"
-                            className="carousel__link"
-                            rel="noreferrer"
-                          >
-                            <img
-                              src={launchIcon}
-                              className="carousel__link-icon"
-                              alt="Project link icon"
-                            ></img>
-                          </a>
+                          <div className="carousel__links">
+                            <a
+                              href={project.github}
+                              target="_blank"
+                              rel="noreferrer"
+                              alt="Demo of DocTurn App"
+                            >
+                              <img
+                                src={githubIcon}
+                                className="carousel__link-icon carousel__link-icon--github"
+                                alt="GitHub icon link"
+                              ></img>
+                            </a>
+                            <a
+                              href={project.link}
+                              target="_blank"
+                              className="carousel__link"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src={launchIcon}
+                                className="carousel__link-icon"
+                                alt="Project link icon"
+                              ></img>
+                            </a>
+                            {project.devpost.length > 0 ? (
+                              <a
+                                href={project.devpost}
+                                target="_blank"
+                                className="carousel__link"
+                                rel="noreferrer"
+                              >
+                                <img
+                                  src={devpostIcon}
+                                  className="carousel__link-icon"
+                                  alt="Project link icon"
+                                ></img>
+                              </a>
+                            ) : null}
+                          </div>
                         </div>
                       </li>
                     );
@@ -123,7 +140,7 @@ export default function Work() {
             ></img>
           </div>
           <div className="carousel__indicators">
-            {Array.from({ length: 4 }).map((item, index) => (
+            {Array.from({ length: workData.length }).map((item, index) => (
               <div
                 onClick={() => moveDot(index + 1)}
                 className={

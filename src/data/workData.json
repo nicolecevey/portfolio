@@ -19,6 +19,24 @@
   },
   {
     "id": "3",
+    "name": "Wealthsimple for All",
+    "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Node.js",
+      "Express",
+      "SQL",
+      "mySQL",
+      "Knex"
+    ],
+    "github": "https://github.com/LamiSaadat/hackthe6ix-hackathon",
+    "link": "https://ws-for-all.herokuapp.com/",
+    "devpost": "https://devpost.com/software/wealthsimple-for-all"
+  },
+  {
+    "id": "4",
     "name": "Dapp Yield Farm",
     "description": "A decentralized yield staking application.",
     "stack": [
@@ -35,24 +53,6 @@
     "github": "https://github.com/nicolecevey/defi-staking-app",
     "link": "https://defi-staking-app-orpin.vercel.app/",
     "devpost": ""
-  },
-  {
-    "id": "4",
-    "name": "Wealthsimple for All",
-    "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
-    "stack": [
-      "JavaScript",
-      "Sass",
-      "React",
-      "Node.js",
-      "Express",
-      "SQL",
-      "mySQL",
-      "Knex"
-    ],
-    "github": "https://github.com/LamiSaadat/hackthe6ix-hackathon",
-    "link": "https://ws-for-all.herokuapp.com/",
-    "devpost": "https://devpost.com/software/wealthsimple-for-all"
   },
   {
     "id": "5",

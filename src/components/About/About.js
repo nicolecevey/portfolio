@@ -43,9 +43,11 @@ export function About() {
                   <li>React</li>
                   <li>Sass</li>
                   <li>Node.js</li>
+                  <li>Express</li>
                 </div>
                 <div>
-                  <li>Express</li>
+                  <li>SQL</li>
+                  <li>mySQL</li>
                   <li>Firebase</li>
                   <li>MongoDB</li>
                   <li>Figma</li>

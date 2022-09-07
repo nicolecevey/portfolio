@@ -59,6 +59,7 @@ export function About() {
               <ul className="learning__list">
                 <li>Web3.js</li>
                 <li>Solidity</li>
+                <li>AWS</li>
               </ul>
             </div>
           </section>

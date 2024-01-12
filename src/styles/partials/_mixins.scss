@@ -14,8 +14,11 @@
 }
 
 @mixin chevron {
-    height: 2.5rem;
+    height: 2rem;
     cursor: pointer;
+    padding:.5rem;
+    border-radius:6px;
+    transition: all 0.1s ease-in-out;
 
     &:hover {
         transform: translateY(-2.5px);

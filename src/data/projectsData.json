@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "DocTurn",
+    "description": "A document management app that makes keeping track of documents easy.",
+    "stack": ["JavaScript", "Sass", "React", "Firebase"],
+    "github": "https://github.com/nicolecevey/docturn",
+    "link": "https://docturn.vercel.app/",
+    "devpost": ""
+  },
+  {
+    "id": "2",
+    "name": "BrainFlix",
+    "description": "A video streaming platform.",
+    "stack": ["JavaScript", "Sass", "React", "Node.js", "Express"],
+    "github": "https://github.com/nicolecevey/nicole-cevey-brainflix",
+    "link": "https://ncevey-brainflix.herokuapp.com/",
+    "devpost": ""
+  },
+  {
+    "id": "3",
+    "name": "Wealthsimple for All",
+    "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Node.js",
+      "Express",
+      "SQL",
+      "mySQL",
+      "Knex"
+    ],
+    "github": "https://github.com/LamiSaadat/hackthe6ix-hackathon",
+    "link": "https://ws-for-all.herokuapp.com/",
+    "devpost": "https://devpost.com/software/wealthsimple-for-all"
+  },
+  {
+    "id": "4",
+    "name": "Dapp Yield Farm",
+    "description": "A decentralized yield staking application. Note - You will need the MetaMask Chrome extension to use this app.",
+    "stack": [
+      "JavaScript",
+      "Sass",
+      "React",
+      "Web3.js",
+      "Solidity",
+      "Truffle",
+      "Chai",
+      "Ganache",
+      "MetaMask"
+    ],
+    "github": "https://github.com/nicolecevey/defi-staking-app",
+    "link": "https://defi-staking-app-orpin.vercel.app/",
+    "devpost": ""
+  }
+]

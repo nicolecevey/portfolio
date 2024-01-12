@@ -1,0 +1,216 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem 0;
+
+    &__title {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #434BE7;
+        width: 23rem;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+
+        @include tablet {
+            width: 44rem;
+        }
+
+        @include desktop {
+            width: 50rem;
+        }
+    }
+}
+
+.carousel {
+    display: flex;
+    width: 23rem;
+    height: 34rem;
+    flex-direction: column;
+    background-color: #1d6ef020;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+
+    @include tablet {
+        width: 44rem;
+        height: 28rem;
+    }
+    
+    @include desktop {
+        width: 50rem;
+    }
+
+    &__container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__description {
+        width: 15rem;
+
+        @include tablet {
+            width: 20rem;
+        }
+    }
+
+    &__track {
+        display: flex;
+        padding: 2rem 0;
+        border-radius: 4px;
+        max-width: 45rem;
+        list-style: none;
+
+        @include tablet {
+            padding: 4rem 0 2rem 0;
+        }
+    }
+
+    &__track-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 15rem;
+        opacity: 0;
+        transition: opacity ease-in-out 0.4s;
+
+        @include tablet {
+            flex-direction: row;
+            align-items: flex-start;
+            width: 35rem;
+        }
+    }
+
+    &__project-title {
+        margin: .75rem 0 .5rem 0;
+        text-align: center;
+
+        @include tablet {
+            margin: 0 0 1rem 0;
+            text-align: left;
+        }
+    }
+
+    &__project-text {
+
+        @include tablet {
+            margin-bottom: 1rem;
+        }
+
+        @include desktop {
+            width: 22rem;
+        }
+    }
+
+    &__image {
+        width: 6.5rem;
+        border-radius: 4px;
+
+        @include tablet {
+            width: 10rem;
+            margin-right: 2rem;
+        }
+
+        @include desktop {
+            margin-left: 2rem;
+        }
+    }
+
+    &__tech-list {
+        list-style: none;
+        display: flex;
+        gap: .5rem;
+        row-gap: 0;
+        margin: .5rem 0;
+        color: #434BE7;
+        flex-wrap: wrap;
+
+        @include tablet {
+            margin: .5rem 0 1rem 0;
+        }
+
+        @include desktop {
+            width: 19rem;
+        }
+    }
+
+    &__tech {
+        font-size: 1rem;
+
+        @include tablet {
+            font-size: 1.125rem; 
+        }
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        height: 100%;
+        // width: 100%;
+    }
+
+    &__link-icon {
+        width: 1.75rem;
+        margin-right: 1rem;
+        transition: all .1s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2.5px);
+        }
+
+        @include tablet {
+            height: 2rem;
+        }
+
+        &--github {
+            height: 1.7rem;
+        }
+    }
+
+    &__next-icon {
+        @include chevron;
+        margin: 0 0.5rem;
+        align-self: center;
+    }
+
+    &__indicators {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+
+    &__indicator {
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.3);
+
+        &--active {
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            border: none;
+            background-color: black;
+        }
+    }
+}
+
+.active-anim {
+    opacity: 1;
+}

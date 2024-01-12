@@ -6,6 +6,7 @@ import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import MobileMenu from "./components/MobileMenu/MobileMenu";
 import Work from "./components/Work/Work";
+import Projects from "./components/Projects/Projects";
 import { useState } from "react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <HeroBanner />
       <About />
       <Work />
+      <Projects />
       <Contact />
     </>
   );

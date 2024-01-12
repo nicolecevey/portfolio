@@ -12,6 +12,9 @@
     &__list {
         display: none;
         list-style: none;
+        display: flex;
+        gap: 3rem;
+        margin-right: 3rem;
 
         @include tablet {
             display: flex;
@@ -20,8 +23,6 @@
 
     &__text {
         display: flex;
-        gap: 1rem;
-        margin-right: 3rem;
         color: white;
         text-decoration: none;
     }
@@ -40,7 +41,7 @@
     }
 
     li:hover::after, li:hover a::before {
-        width: 62%;
+        width: 100%;
     }
 }
 

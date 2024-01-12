@@ -33,13 +33,16 @@
     }
 
     &__description {
-        max-width: 23rem;
-        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding: 0 1rem;
         margin-top: -2rem;
+        display: flex;
+        align-items: center;
+        background-color: rgba(29, 110, 240, 0.1254901961);
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden;
+        padding: 2rem;
 
         @include tablet {
             max-width: 40rem;
@@ -47,14 +50,12 @@
     }
 
     &__title {
-        padding: 1rem 0;
+        padding: 1rem 0 0 0;
         text-align: center;
     }
 
     &__text {
         padding: 2rem 0;
-        border-bottom: 1px solid #434BE7;
-        border-top: 1px solid #434BE7;
     }
 
     &__knowledge {
@@ -76,7 +77,7 @@
     justify-content: center;
     align-items: center;
     width: 20rem;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     margin-top: 3rem;
     background-color: #1d6ef020;
     border-radius: 4px;
@@ -90,6 +91,12 @@
         display: flex;
         justify-content: center;
         gap: 5rem;
+    }
+
+    &__type {
+        font-weight: 500;
+        margin-left: -1.5rem;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -123,6 +130,6 @@
     @include chevron;
 
     @include tablet {
-        top: 40rem; 
+        top: 35rem; 
     }
 }

@@ -11,16 +11,17 @@
     &__list {
         display: flex;
         list-style-type: none;
-        gap: 3rem;
+        gap: 2rem;
     }
 
     &__icons {
         padding: 2rem 0;
-        height: 3rem;
+        height: 2.5rem;
         transition: all .1s ease-in-out;
 
         &:hover {
-            transform: translateY(-5px);
+            transform: translateY(-1px);
+            opacity:80%;
         }
     }
 

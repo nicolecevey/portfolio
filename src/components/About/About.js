@@ -28,8 +28,7 @@ export function About() {
 			<h1 className="about__title">About Me</h1>
 			<div className="about__text">
 				<p>
-				I'm a frontend developer based in Toronto. I made the transition from law to software development in 2021. I'm passionate about
-				developing beautiful apps.
+				I'm a frontend developer based in Toronto who made the transition from law to software development in 2022. I love all things Design Systems and bridging the knowledge gap between developers and designers.
 				</p>
 			</div>
 			</div>

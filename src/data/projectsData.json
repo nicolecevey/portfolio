@@ -19,6 +19,15 @@
   },
   {
     "id": "3",
+    "name": "Stopwatch App",
+    "description": "An app that keeps track of time and allows you to save your laps.",
+    "stack": ["TypeScript", "React", "React Testing Library", "CSS"],
+    "github": "https://github.com/nicolecevey/Stopwatch-App",
+    "link": "https://stopwatch-app-ten.vercel.app/",
+    "devpost": ""
+  },
+  {
+    "id": "4",
     "name": "Wealthsimple for All",
     "description": "This app seeks to break down the barriers to financial literacy. It was built for the Hack the 6ix Wealthsimple challenge.",
     "stack": [
@@ -36,7 +45,7 @@
     "devpost": "https://devpost.com/software/wealthsimple-for-all"
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "Dapp Yield Farm",
     "description": "A decentralized yield staking application. Note - You will need the MetaMask Chrome extension to use this app.",
     "stack": [

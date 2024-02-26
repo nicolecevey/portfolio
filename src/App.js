@@ -7,6 +7,7 @@ import { Contact } from "./components/Contact/Contact";
 import MobileMenu from "./components/MobileMenu/MobileMenu";
 import Work from "./components/Work/Work";
 import Projects from "./components/Projects/Projects";
+import Designs from "./components/Designs/Designs";
 import { useState } from "react";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Work />
       <Projects />
+      <Designs />
       <Contact />
     </>
   );
